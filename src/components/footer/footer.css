@@ -1,0 +1,15 @@
+footer {
+  background-color: var(--color-bg-variant);
+  height: 2rem;
+  position: absolute;
+  margin-top: 24rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    width: 175%;
+    margin-left: 0;
+  }
+}
